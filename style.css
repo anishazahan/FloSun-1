@@ -240,4 +240,62 @@ margin-top: 20px;
   margin-right: 5px;
 }
 
+/* ......................overlay section style............................. */
+
+.bg-image{
+  background-image: linear-gradient( to right,rgba(0,0,0,0.7) 30%,rgba(0,0,0,0.1)) ,url("https://cdn.shopify.com/s/files/1/0017/5282/5914/articles/blog1_9ea6fc48-cf97-48fb-a979-65e06d1c8bff.jpg?v=1614245343");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7% 0;
+}
+
+.overlay-content {
+  text-align: center;
+  color: white;
+}
+.overlay-content h2 {
+  margin: 20px 0;
+}
+
+
+
+/* ......................contact section style............................. */
+#contact {
+  padding: 3em;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+input, textarea {
+  margin: 0.5em 0;
+  padding: 1em;
+  width: 100%;
+}
+
+button {
+  padding: 1em 2rem;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #CD0404;
+}
+
+
 
