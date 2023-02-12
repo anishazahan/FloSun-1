@@ -197,4 +197,47 @@
  
  }
 
+ /* ......................hero section style............................. */
+
+ .middle-section{
+  margin-top: 5%;
+ 
+  background-repeat: no-repeat;
+}
+.middle-design{
+  display: flex;
+}
+.left-section{
+width: 50%;
+}
+.left-section img{
+  width: 500px;
+  height: 450px;
   
+  margin-left: 10%;
+}
+.right-section h1{
+  margin-top: 10%;
+  margin-bottom: 4%;
+  line-height: 1;
+  font-size: 30px;
+}
+.right-section{
+  width: 50%;
+}
+.list{
+  line-height: 15px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.list-item{
+  display: flex;
+  align-items: center;
+margin-top: 20px;
+}
+.icon{
+  color: purple;
+  margin-right: 5px;
+}
+
+
