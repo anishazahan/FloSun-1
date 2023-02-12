@@ -140,4 +140,61 @@
   transform: translateX(0);
  }
 
+   /* ......................gallary style............................. */
+
+
+ .gallary{
+    max-width: 1280px;
+    margin: auto;
+    margin: 5% 0;
+    /* padding: 3%; */
+ }
+ .galary-heading{
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5%;
+ }
+ .main-gallary{
+  display: flex;
+  /* margin: 3%; */
+ }
+ .right-galary{
+  display: flex;
+  flex-direction: column;
+ }
+ .top-galary{
+  display: flex;
+  margin-bottom: 3%;
+ }
+ .botom-galary{
+  display: flex;
+  gap: 15px;
+ }
+ .galary-img-style-1{
+  width: 470px;
+  height: 527px;
+  margin:0 3%;
+ }
+ .galary-img-style-2{
+  width: 329px;
+  height: 251px;
+  margin-right: 4%;
+ }
+ .galary-img-style-3{
+  width: 391px;
+  height: 254px;
+ }
+ .galary-img-style-4{
+  width: 469px;
+  height: 254px;
+
+ }
+ .galary-img-style-5{
+  width: 251px;
+  height: 251px;
+  padding-left: 5px;
+ 
+ }
+
   
